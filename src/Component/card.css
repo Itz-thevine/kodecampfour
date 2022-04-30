@@ -1,0 +1,68 @@
+*{
+    @import url("http://fonts.cdnfonts.com/css/r-flex");
+}
+
+.container{
+    background-color: #F2F7F8;
+    padding: 10px 20px 10px 50px;
+    min-width: 400px;
+    font-family: 'R-Flex', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.name h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 40px;
+    color: #40424A;
+}
+
+p{
+    color: #808181;
+}
+
+.generalInfo{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.general{
+    color: #40424A;
+    font-size: 20px;
+}
+
+.infos{
+    display: flex;
+    width: inherit;
+}
+
+.eachInfo{
+    display: flex;
+    flex: 1;
+    color: black;
+}
+
+.eachDetails{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    width: auto;
+}
+
