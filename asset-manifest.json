@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kodecampfour/static/css/main.073e1f78.css",
+    "main.js": "/kodecampfour/static/js/main.c4b66139.js",
+    "index.html": "/kodecampfour/index.html",
+    "main.073e1f78.css.map": "/kodecampfour/static/css/main.073e1f78.css.map",
+    "main.c4b66139.js.map": "/kodecampfour/static/js/main.c4b66139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073e1f78.css",
+    "static/js/main.c4b66139.js"
+  ]
+}
