@@ -4,8 +4,9 @@ import './App.css';
 import { Card } from './Component/Card';
 
 
+
 function App() {
-  const [profile, setProfile] = useState(null);
+  const [profile, setProfile] = useState([]);
 
   useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users').then(
@@ -15,7 +16,7 @@ function App() {
     )
   },[])
 
-  console.log(profile)
+  // console.log(profile)
 
   return (
     <div className="App">
